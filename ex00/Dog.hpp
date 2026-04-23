@@ -6,7 +6,7 @@
 /*   By: fgroo <student@42.eu>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 15:38:06 by fgroo             #+#    #+#             */
-/*   Updated: 2026/04/22 18:59:31 by fgroo            ###   ########.fr       */
+/*   Updated: 2026/04/23 12:03:26 by fgroo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ class Dog : public Animal {
 		Dog( void );
 		Dog( std::string name);
 		Dog( const Dog &other );
-		Dog	&operator=( const Dog &other );
-		~Dog( void );
+		Dog		&operator=( const Dog &other );
+		virtual	~Dog( void );
 		void	makeSound( void ) const;
 };
 

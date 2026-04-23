@@ -6,7 +6,7 @@
 /*   By: fgroo <student@42.eu>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 15:31:00 by fgroo             #+#    #+#             */
-/*   Updated: 2026/04/22 18:59:21 by fgroo            ###   ########.fr       */
+/*   Updated: 2026/04/23 12:00:22 by fgroo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class Animal {
 		const std::string	getType( void ) const;
 		virtual void		makeSound( void ) const;
 	protected:
-		std::string	_type;
+		std::string			_type;
 };
 
 #endif

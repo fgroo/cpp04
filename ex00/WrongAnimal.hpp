@@ -6,7 +6,7 @@
 /*   By: fgroo <student@42.eu>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 17:35:13 by fgroo             #+#    #+#             */
-/*   Updated: 2026/04/22 18:57:53 by fgroo            ###   ########.fr       */
+/*   Updated: 2026/04/23 12:00:42 by fgroo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class WrongAnimal {
 		const std::string	getType(void) const;
 		void				makeSound( void ) const;
 	protected:
-		std::string	_type;
+		std::string			_type;
 };
 
 #endif
